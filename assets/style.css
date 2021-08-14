@@ -1,5 +1,5 @@
 :root {
-  --prime-clr: #535962;
+  --prime-clr: #252525;
   --next-clr: #cd113b;
   --final-clr: #d8e3e7;
 }
@@ -17,7 +17,7 @@ body {
 header {
   margin: 0;
   display: flex;
-  padding: 20px 35px;
+  padding: 25px 25px 25px 0;
   /* position: sticky; */
   top: 0;
   background-image: url("../assets/images/gg.jpg");
@@ -27,9 +27,15 @@ header {
   background-position: 80%;
 }
 
+h1 {
+  background-color: var(--prime-clr);
+  padding: 10px 20px 10px 15px;
+}
+
 h5 {
   font-size: x-large;
 }
+
 /* navbar */
 .name {
   font-weight: bold;
@@ -55,6 +61,16 @@ h5 {
   font-size: 22px;
 }
 
+.cool-words {
+  font-size: 3vw;
+  position: relative;
+  background-color: var(--prime-clr);
+  margin: 0;
+  display: inline-block;
+  top: 320px;
+  padding: 10px 35px 10px 20px;
+}
+
 /* images */
 .banner {
   color: var(--final-clr);
@@ -65,6 +81,10 @@ h5 {
   background-attachment: fixed;
   background-position: 80%;
   height: 600px;
+}
+
+.myimage {
+  padding-left: 25px;
 }
 
 .image {
@@ -81,7 +101,7 @@ h5 {
 
 .main-image {
   height: 100%;
-  width: 100%;
+  /* width: 400px; */
 }
 
 .flex-body {
@@ -114,6 +134,7 @@ h5 {
   padding-left: 98px;
   padding-right: 25px;
 }
+
 .about-me {
   padding-left: 50px;
   padding-right: 50px;
@@ -133,7 +154,7 @@ h5 {
   color: var(--prime-clr);
   flex-basis: 20%;
   border-right: 3px solid var(--prime-clr);
-  padding-bottom: 1000px;
+  padding-bottom: 900px;
   text-align: right;
   font-size: 4vw;
   max-height: 100%;
@@ -144,7 +165,7 @@ h5 {
 /* cards */
 
 .wrap {
-  width: 800px;
+  width: 940px;
   margin: auto;
   margin-top: 0;
   flex-wrap: wrap;
@@ -154,7 +175,7 @@ h5 {
 
 .main-card {
   background-image: url("./images/coder.jpg");
-  border: 3px solid var(--next-clr);
+  border: 4px solid var(--next-clr);
   margin: 50px;
   width: 100%;
   height: 374px;
@@ -165,10 +186,10 @@ h5 {
 
 .card {
   background-image: url("./images/laptop-home-office.jpg");
-  border: 3px solid var(--next-clr);
+  border: 4px solid var(--next-clr);
   width: 40%;
   margin-bottom: 40px;
-  width: 320px;
+  width: 390px;
   height: 263px;
   overflow: hidden;
   position: relative;
@@ -181,8 +202,9 @@ h5 {
   background-color: var(--next-clr);
   position: absolute;
   bottom: 10%;
-  padding-left: 3px;
+  padding-left: 7px;
 }
+
 /* contact me section */
 
 .contact-me-section {
@@ -213,4 +235,10 @@ h5 {
   max-height: 100%;
   height: 100%;
   padding-right: 20px;
+}
+
+/* Media Query for smaller desktop screens and smaller */
+
+@media screen and (max-width: 980px) {
+
 }

@@ -1,107 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Antonios Personal Site</title>
     <link rel="stylesheet" href="./assets/style.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<body>
-    
-    <!-- navagation  -->
+  <body>
     <header>
-      <h1>Antonio M. Huerta</h1>
-      <td>
-          <nav>
-              <!-- Unordered list element -->
-              <ul>
-                  <!-- List item element -->
-                  <li>
-                      <!-- Anchor element -->
-                      <a href="about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="work">Work</a>
-                    </li>
-                    <li>
-                        <a href="contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Cool subtitle -->
-        <section class="hero">
-            <div class="bridge-img">
-                <img src="./assets/images/gg.jpg" width="100%" alt="" />
-            </div>
-            <!-- <td><img class="Tonys-img" src="./assets/images/Antspix.png" alt="Tonys-Image"></td> -->
-            <h2>Cool Subtitle here</h2>
-        </section>
-        <!-- About me info -->
-        <section>
-            <summary>
-            <div class="about-me-section">
+      <h1 class="name">Antonio M. Huerta</h1>
 
-                <h3 id="about-me" >About Me</h3>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum esse officiis quo necessitatibus? Maiores 
-                nesciunt fugit eius exercitationem, vitae amet, repellat et nobis soluta, inventore tempore repellendus delectus at!
+      <!-- navagation  -->
+      <nav class="navbar">
+        <ul class="navnames">
+          <li class="list">
+            <a class="link" href="#about-me">About Me</a>
+          </li>
+          <li class="list">
+            <a class="link" href="#work">Work</a>
+          </li>
+          <li class="list">
+            <a class="link" href="#contact-me">Contact Me</a>
+          </li>
+          <li class="list">
+            <a class="link" href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- banner -->
+
+    <section class="banner">
+        <div class="tonys-div">
+          <img
+            class="image"
+            src="./assets/images/Antspix.png"
+            alt="Tonys-Image"
+          />
+        </div>
+
+        <!-- Toni Face Image  -->
+
+        <h2>Cool Subtitle here</h2>
+    </section>
+
+    <!-- About me info -->
+
+    <section class="flex-body">
+
+      <div class="about-me-section">
+      
+        <h3 id="about-me">About Me</h3>
+      
+        <div class="about-me">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum
+          esse officiis quo necessitatibus? Maiores nesciunt fugit eius
+          exercitationem, vitae amet, repellat et nobis soluta, inventore
+          tempore repellendus delectus at!
+        </div>
+      </div>
+
+      <!-- Work section -->
+
+      <!-- link for nav bar -->
+      <div class="work-section">
+      
+        <h3 id="work">Work</h3>
+      
+        <summary class="work">
+
+          <div class="wrap">
+
+            <!-- div instead of article, main-card class instead of being in both card and main-card -->
+            <div class="main-card">
+              <div class="label"><h5>title</h5>
+              <p>below</p></div>
+              <!-- <img src="./assets/images/coder.jpg" alt="laptop" class="image main-image"/> -->
             </div>
+
+            <article class="card">
+              <div class="label"><h5>title</h5>
+              <p>below</p></div>
+              <!-- <img src="./assets/images/laptop-home-office.jpg" alt="laptop" class="image"/> -->
+            </article>
+
+            <article class="card">
+              <div class="label"><h5>title</h5>
+                <p>below</p></div>
+              <!-- <img src="./assets/images/laptop-home-office.jpg" alt="laptop" class="image"/> -->
+            </article>
+
+            <article class="card">
+              <div class="label"><h5>title</h5>
+                <p>below</p></div>
+              <!-- <img src="./assets/images/laptop-home-office.jpg" alt="laptop" class="image"/> -->
+            </article>
+
+            <article class="card">
+              <div class="label"><h5>title</h5>
+                <p>below</p></div>
+              <!-- <img src="./assets/images/laptop-home-office.jpg" alt="laptop" class="image"/> -->
+            </article>
+
+          </div>
         </summary>
-    </section>
-    <!-- Work section -->
-    <div class="work-section">
-        <h3 id="work" >Work</h3>
-        <section>
-            <article class="folio">
-                <img src="" alt="">
-            </article>
-            <article class="folio">
-                <img src="" alt="">
-            </article>
-            <article class="folio">
-                <img src="" alt="">
-                <article class="folio">
-                    <img src="" alt="">
-                </article>
-                <article class="folio">
-                    <img src="" alt="">
-                </article>
-            </article>
-        </div>
-    </section>
-    <!-- Side-bar section -->
-    <aside class="side-bar">
-    </aside>
-    <!-- Footer -->
-    <footer>
+      </div>
+
         <!-- Contact Me -->
-        <div class="contact-me-section">
-            <div class="contact-me-header">
-                <h3 id="contact-me">Contact Me</h3>
-            </div>
-            <ul>
-                <!-- Unordered list element -->
-                <div class="contact-list">
-                    <li>
-                        <h4>41587777777</h4>
-                    </li>
-                    <li>
-                        <h4>github</h4>
-                    </li>
-                    <li>
-                        <h4>website</h4>
-                    </li>
-                    <li>
-                        <h4>Email</h4>
-                    </li>
-                </div>
-            </ul>
-        </div>
+      <footer class="contact-me-section">
+        <h3 id="contact-me">Contact Me</h3>
+        <ul class="contact-list">
+        <!-- Unordered list element -->
+          <li class="list-item">
+            <h4>41587777777</h4>
+          </li>
+          <li class="list-item">
+            <h4>github</h4>
+          </li>
+          <li class="list-item">
+            <h4>website</h4>
+          </li>
+          <li class="list-item">
+            <h4>Email</h4>
+          </li>
+      </ul>
     </footer>
-</body>
+    </section>
+  </body>
 </html>

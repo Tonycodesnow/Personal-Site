@@ -11,6 +11,8 @@
 }
 
 body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.3;  
   margin: 0;
 }
 
@@ -67,7 +69,7 @@ h5 {
   background-color: var(--prime-clr);
   margin: 0;
   display: inline-block;
-  top: 320px;
+  top: 18.75rem;
   padding: 10px 35px 10px 20px;
 }
 
@@ -80,7 +82,7 @@ h5 {
   position: relative;
   background-attachment: fixed;
   background-position: 80%;
-  height: 600px;
+  height: 37.5rem;
 }
 
 .myimage {
@@ -96,16 +98,16 @@ h5 {
 }
 
 .tonys-div {
-  width: 200px;
+  width: 12.5rem;
 }
 
 .main-image {
   height: 100%;
-  /* width: 400px; */
+  /* width: 40rem; */
 }
 
 .flex-body {
-  margin: 25px;
+  margin: 1.56rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -116,7 +118,7 @@ h5 {
 /* about me */
 
 .about-me-section {
-  margin: 25px;
+  margin: 1.56rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -131,19 +133,20 @@ h5 {
   font-size: 4vw;
   max-height: 100%;
   height: 100%;
-  padding-left: 98px;
-  padding-right: 25px;
+  padding-left: 3.9rem;
+  padding-right: 1.3rem;
 }
 
 .about-me {
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 1.2rem;
+  padding-left: 5.2rem;
+  padding-right: 3rem;
 }
 
 /* work section */
 
 .work-section {
-  margin: 25px;
+  margin: 1.56rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -154,12 +157,12 @@ h5 {
   color: var(--prime-clr);
   flex-basis: 20%;
   border-right: 3px solid var(--prime-clr);
-  padding-bottom: 900px;
+  padding-bottom: 56.25rem;
   text-align: right;
   font-size: 4vw;
   max-height: 100%;
   height: 100%;
-  padding-right: 20px;
+  padding-right: .8rem;
 }
 
 /* cards */
@@ -176,9 +179,9 @@ h5 {
 .main-card {
   background-image: url("./images/coder.jpg");
   border: 4px solid var(--next-clr);
-  margin: 50px;
+  margin: 3.12rem;
   width: 100%;
-  height: 374px;
+  height: 23.375rem;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -188,9 +191,9 @@ h5 {
   background-image: url("./images/laptop-home-office.jpg");
   border: 4px solid var(--next-clr);
   width: 40%;
-  margin-bottom: 40px;
-  width: 390px;
-  height: 263px;
+  margin-bottom: 2.5rem;
+  width: 21rem;
+  height: 12.5rem;
   overflow: hidden;
   position: relative;
   background-size: cover;
@@ -202,13 +205,13 @@ h5 {
   background-color: var(--next-clr);
   position: absolute;
   bottom: 10%;
-  padding-left: 7px;
+  padding-left: .43rem;
 }
 
 /* contact me section */
 
 .contact-me-section {
-  margin: 25px;
+  margin: 1.55rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -223,7 +226,7 @@ h5 {
 .list-item {
   font-size: 2vw;
   color: var(--prime-clr);
-  padding: 0 50px;
+  padding: 0 3rem;
 }
 
 #contact-me {
@@ -234,11 +237,14 @@ h5 {
   font-size: 4vw;
   max-height: 100%;
   height: 100%;
-  padding-right: 20px;
+  padding-right: .8rem;
 }
 
 /* Media Query for smaller desktop screens and smaller */
 
 @media screen and (max-width: 980px) {
 
+  .contact-me-section {
+    
+  }
 }

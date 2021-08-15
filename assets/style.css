@@ -286,7 +286,7 @@ h5 {
 
 /* Media Query for smaller desktop screens and smaller */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 800px) {
   header {
     flex-wrap: wrap;
     flex-direction: column;
@@ -315,7 +315,7 @@ h5 {
   }
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 411px) {
   header {
     background-position: center;
     width: 110%;

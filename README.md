@@ -22,7 +22,7 @@ What you will see...
 * About me section with my introduction
 * Work section with clickable pictures with titles that sends users to proper sites.
 * Contact me section with peresonal info and more clickable links
-* Responsive site that adapts to viewsize
+* Responsive site that adapts to viewsizes of 800px and below
 
 Programed curtesy of Antonio Huerta 2021
 https://github.com/Tonycodesnow

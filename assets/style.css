@@ -246,8 +246,31 @@ h5 {
 /* Media Query for smaller desktop screens and smaller */
 
 @media screen and (max-width: 980px) {
+  header {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    background-color: var(--prime-clr);
+    width: 100%;
+  }
 
- 
+  .banner {
+    background-image: url("../assets/images/ggsml.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-size: cover;
+    max-width: 600px;
+  }
+  
+  .about-me-section{
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
   
 }
 
@@ -275,6 +298,7 @@ h5 {
     
     
     .banner {
+      background-image: url("../assets/images/ggsml.jpg");
       background-position: center center;
       background-attachment: fixed;
       background-repeat: no-repeat; background-size: cover;

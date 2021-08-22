@@ -25,6 +25,8 @@ What you will see...
 * Responsive site that adapts to viewsizes of 800px and below
 
 Programed curtesy of Antonio Huerta 2021
+
+Direct Browser link https://tonycodesnow.github.io/Personal-Site/
 https://github.com/Tonycodesnow
 
 

@@ -344,7 +344,7 @@ h5 {
     background-color: var(--final-clr);
     font-size: 3rem;
     text-align: center;
-    width: ;
+    /* width: ; */
   }
 /* Navagation and opening page */
   .navnames {
@@ -394,8 +394,9 @@ h5 {
   .main-card {
     max-height: 200px;
     max-block-size: 0%;
-    padding-right: 
+    /* padding-right:  */
   }
+
   .work {
     width: 60%;
     height: fit-content;

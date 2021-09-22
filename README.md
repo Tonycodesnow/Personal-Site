@@ -4,6 +4,9 @@ Personal Portfolio
 
 <p align="center"><img src="./assets/images/Fullsite.png" width="70%"></p>
 
+Direct Browser link https://tonycodesnow.github.io/Personal-Site/
+https://github.com/Tonycodesnow
+
 The following is a responisve webpage that can be easily viewed on tablet and mobile with working links to external sites.
 
 The goal for my site was to make a portfolio webpage using flexbox, mediaqueries and links that scrolls and sends the viewer to the apporpriate section or site.
@@ -25,8 +28,3 @@ What you will see...
 * Responsive site that adapts to viewsizes of 800px and below
 
 Programed curtesy of Antonio Huerta 2021
-
-Direct Browser link https://tonycodesnow.github.io/Personal-Site/
-https://github.com/Tonycodesnow
-
-

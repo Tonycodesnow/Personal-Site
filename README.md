@@ -2,10 +2,11 @@ READMe.
 
 Personal Portfolio
 
-<p align="center"><img src="./assets/images/Fullsite.png" width="70%"></p>
-
 Direct Browser link https://tonycodesnow.github.io/Personal-Site/
 https://github.com/Tonycodesnow
+
+<p align="center"><img src="./assets/images/Fullsite.png" width="70%"></p>
+
 
 The following is a responisve webpage that can be easily viewed on tablet and mobile with working links to external sites.
 

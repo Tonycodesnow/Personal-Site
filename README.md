@@ -2,7 +2,11 @@ READMe.
 
 Personal Portfolio
 
+Direct Browser link https://tonycodesnow.github.io/Personal-Site/
+https://github.com/Tonycodesnow
+
 <p align="center"><img src="./assets/images/Fullsite.png" width="70%"></p>
+
 
 The following is a responisve webpage that can be easily viewed on tablet and mobile with working links to external sites.
 
@@ -25,8 +29,3 @@ What you will see...
 * Responsive site that adapts to viewsizes of 800px and below
 
 Programed curtesy of Antonio Huerta 2021
-
-Direct Browser link https://tonycodesnow.github.io/Personal-Site/
-https://github.com/Tonycodesnow
-
-
